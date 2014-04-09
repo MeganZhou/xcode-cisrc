@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/ci/!svn/ver/250/trunk/dev/src/xcode/CreditInsightTests
+END
+CreditInsightTests-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ci/!svn/ver/3/trunk/dev/src/xcode/CreditInsightTests/CreditInsightTests-Info.plist
+END
+CreditInsightTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/ci/!svn/ver/3/trunk/dev/src/xcode/CreditInsightTests/CreditInsightTests.h
+END
+CreditInsightTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/ci/!svn/ver/3/trunk/dev/src/xcode/CreditInsightTests/CreditInsightTests.m
+END

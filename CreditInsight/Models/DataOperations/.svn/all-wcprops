@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/ci/!svn/ver/407/trunk/dev/src/xcode/CreditInsight/Models/DataOperations
+END
+DashboardOperationsUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ci/!svn/ver/407/trunk/dev/src/xcode/CreditInsight/Models/DataOperations/DashboardOperationsUtil.h
+END
+DashboardOperations.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ci/!svn/ver/407/trunk/dev/src/xcode/CreditInsight/Models/DataOperations/DashboardOperations.h
+END
+DashboardOperationsUtil.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ci/!svn/ver/410/trunk/dev/src/xcode/CreditInsight/Models/DataOperations/DashboardOperationsUtil.m
+END
+DashboardOperations.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ci/!svn/ver/407/trunk/dev/src/xcode/CreditInsight/Models/DataOperations/DashboardOperations.m
+END

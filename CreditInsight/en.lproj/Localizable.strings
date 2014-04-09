@@ -1,0 +1,146 @@
+/* 
+  Localization.strings
+  CreditInsight
+
+  Created by wang liang on 1/31/13.
+  Copyright (c) 2013 wang liang. All rights reserved.
+ 
+  Sample key's format is "filename.control.field"
+*/
+
+"ReportsViewerViewController.Bar.Title"="Reports Viewer";
+"SAPCreditInsight" = "SAP Credit Insight";
+"Username" = "Username";
+"Passcode" = "Passcode";
+"Login" = "Login";
+"TrySampleData" = "Try Sample Data";
+"Error" = "Error";
+"Warning" = "Warning";
+"OK" = "OK";
+"Loading" = "Loading...";
+
+//------------------------Error&Warning-------------------------
+"LoginController.Error.Message"="Incorrect username or passcode, please try again";
+"NotConnectToServerMsg" = "The application cannot connect to the server.";
+"OtherNetworkError" = "Failure due to other issue";
+"TimedOutMsg" = "Your connection timed out. Please check your connection.";
+"DefaultErrorMsg" = "An error has occurred. Please try again or contact Addmin.";
+"SessionExpireMsg" = "Send request failed because you have long time unused, please login again.";
+
+//-------------------------CustomerController-------------------
+"HomeViewController.Bar.Title"="Credit & Sales Dashboard";
+"CustomerSearch" = "Customer Search";
+"Setting" = "Setting";
+"Currency" = "Currency";
+"USD" = "USD";
+"RMB" = "RMB";
+"EUR" = "EUR";
+//-------------------------CustomerController-------------------
+"Home" = "Home";
+"GeneralInformation" = "General Information";
+"CustomerNumber"= "Customer Number:";
+"Name" = "Name:";
+"BusinessType" = "Business Type:";
+"IndustrySector" = "Industry Sector:";
+"YearOfEstablishment" = "Year Of Establishment:";
+"EmployeeSize" = "Employee Size:";
+"RegisteredCapital" = "Registered Capital:";
+"Ownership" = "Ownership";
+"ContactTitle" = "Contact Title:";
+"ContactName" = "Contact Name:";
+"Telephone" = "Telephone:";
+"Email" = "E-Mail:";
+"Website" = "Website:";
+"Updated" = "Updated";
+"ScoreRating" = "Score & Rating";
+"Score" = "Credit Score:";
+"Rating" = "Rating:";
+"ExternalRating" = "External Rating";
+"KeyFinancialRatios" = "Key Financial Ratios";
+"CreditEvents" = "Credit Events";
+"LatestExternalReports" = "Latest External Reports";
+"LegalEvents" = "Legal Events";
+"MediaRecords" = "Media Records";
+"Overview" = "Overview";
+"Behavior" = "Behavior";
+"CreditEvents" = "Credit Events";
+"Compare" = "Compare";
+"Done" = "Done";
+"Cancel" = "Cancel";
+"AddCustomerToCompare" = "Add customer to compare";
+"Sort" = "Sort";
+"Sort By" = "Sort By";
+"Date" = "Date";
+"Type" = "Type";
+//-------------------------WorkItemController-------------------
+"BlockedOrders" = "Blocked Orders";
+"CreditRequests" = "Credit Requests";
+"EarlyWarning" = "Early Warning";
+"SalesOrderNO" = "Sales Order NO.";
+"Amount" = "Amount";
+"CreatedDate" = "Created Date";
+"SalesOrder" = "Sales Order";
+"Customer" = "Customer";
+"SalesOrderAmount" = "Sales Order Amount";
+"CreateDate" = "Created Date";
+"Sales" = "Sales";
+"OrderDetail" = "Order Detail";
+"Total" = "Total";
+"RequestDate" = "Request Date";
+"RequestID" = "Request ID";
+"Description" = "Description";
+"Priority" = "Priority";
+"Status" = "Status";
+"Reason" = "Reason";
+"RequestAmount" = "Request Amount";
+"Approved" = "Approved";
+"ExpectedVolumn" = "Expected Volumn";
+"CreditLimit" = "Credit Limit";
+"AdministrativeData" = "Administrative Data";
+"CreateOnBy" = "Create On/By";
+"ChangedOnBy" = "Changed On/By";
+"CloseOnBy" = "Close On/By";
+"Note" = "Note";
+"Attachment" = "Attachment";
+"Release" = "Release";
+"Approve" = "Approve";
+"Reject" = "Reject";
+"Save" = "Save";
+"Ignore" = "Ignore";
+"Forward" = "Forward";
+"BlockMasterData" = "Block Master Data";
+// EarlyWarning
+"WarningType" = "Warning Type";
+"WarningID" = "Warning ID";
+"Profitability" = "Profitability";
+"Impact" = "Impact";
+"Remote" = "Remote";
+"Unlikely" = "Unlikely";
+"Likely" = "Likely";
+"HighLikely" = "High Likely";
+"NearCertain" = "Near Certain";
+"Insignificant" = "Insignificant";
+"Minor" = "Minor";
+"Moderate" = "Moderate";
+"Major" = "Major";
+"Catastrophic" = "Catastrophic";
+
+//-------------------------Home Reports-------------------
+
+"Credit Reports" = "Credit Reports";
+"Days Sales Outstanding" = "Days Sales Outstanding";
+"Credit Limit Utilization" = "Credit Limit Utilization";
+"Bad Debt" = "Bad Debt";
+"Aging of Accounts Receivable" = "Aging of Accounts Receivable";
+"Sales Reports" = "Sales Reports";
+"Profitability" = "Profitability";
+"Sales Volume" = "Sales Volume";
+"My Favorites" = "My Favorites";
+"My Sales Reports" = "My Sales Reports";
+"My Credit Reports" = "My Credit Reports";
+
+// filter category
+"Credit Control Area" = "Credit Control Area";
+"Company Code" = "Company Code";
+"Customer" = "Customer";
+"Timeline" = "Timeline";

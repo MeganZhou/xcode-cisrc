@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/ci/!svn/ver/395/trunk/dev/src/xcode/CreditInsight/Models/Service/Network
+END
+HttpResponseDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ci/!svn/ver/303/trunk/dev/src/xcode/CreditInsight/Models/Service/Network/HttpResponseDelegate.h
+END
+HttpClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ci/!svn/ver/358/trunk/dev/src/xcode/CreditInsight/Models/Service/Network/HttpClient.h
+END
+HttpClient.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ci/!svn/ver/395/trunk/dev/src/xcode/CreditInsight/Models/Service/Network/HttpClient.m
+END

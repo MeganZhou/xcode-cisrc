@@ -1,0 +1,812 @@
+General Consideration:
+1. User Role (Not required in current phase)
+2. Date format is "yyyy-MM-dd"
+3. Currency is mobile global setting.
+
+Homepage:
+1.  Notification 
+relative URL: /notifications
+http method: GET
+json response sample:
+{
+	"blockedOrder":{
+		"unprocessed" : 1,
+	},
+	"creditRequest":{
+		"unprocessed" : 1,
+	},
+	"earlyWarning":{
+		"unprocessed": 1,
+	}
+}
+
+2. Customer Search
+relative URL: /customers
+http method: GET
+json response sample:
+{
+    "status": "success",
+    "message": "Successfully get customers!",
+    "data": [
+             {
+             "customerId": "1",
+             "customerNumber": "CM001",
+             "name": "Kenny A Bull"
+             },
+             {
+             "customerId": "2",
+             "customerNumber": "CM002",
+             "name": "Emma Bull"
+             },
+             {
+             "customerId": "3",
+             "customerNumber": "CM003",
+             "name": "Kenny A Chadburn"
+             }
+            ]
+}
+
+3. Reports: Waiting for final decision for reports content, which is only sample data
+relative URL: /reports
+http method: GET
+json response sample:
+{
+  "status": "sucess",
+  "message": "Successfully get reports!",
+  "data": {
+    "salesReports": {
+      "profitability": {
+        "id": 1,
+        "xName": "Year",
+        "xValue": [
+          2008,
+          2009,
+          2010,
+          2011,
+          2012
+        ],
+        "xUnit": "year",
+        "yName": "Profit",
+        "yValue": [
+          [
+            10,
+            12,
+            13,
+            15,
+            20
+          ]
+        ],
+        "ySeriaries": [
+          "Lenovo"
+        ],
+        "yUnit": "million USD"
+      },
+      "salesVolume": {
+        "id": 2,
+        "xName": "Year",
+        "xValue": [
+          2008,
+          2009,
+          2010,
+          2011,
+          2012
+        ],
+        "xUnit": "year",
+        "yName": "Volume",
+        "yValue": [
+          [
+            10,
+            12,
+            13,
+            15,
+            20
+          ]
+        ],
+        "ySeriaries": [
+          "Lenovo"
+        ],
+        "yUnit": "thousands pieces"
+      }
+    },
+    "creditReports": {
+      "DSO": {
+        "id": 3,
+        "xName": "Year",
+        "xValue": [
+          2008,
+          2009,
+          2010,
+          2011,
+          2012
+        ],
+        "xUnit": "year",
+        "yName": "Days",
+        "yValue": [
+          [
+            10,
+            12,
+            13,
+            15,
+            20
+          ]
+        ],
+        "ySeriaries": [
+          "Lenovo"
+        ],
+        "yUnit": "day"
+      },
+      "openItem": {
+        "id": 4,
+        "xName": "Year",
+        "xValue": [
+          2008,
+          2009,
+          2010,
+          2011,
+          2012
+        ],
+        "xUnit": "year",
+        "yName": "Open Item",
+        "yValue": [
+          [
+            10,
+            12,
+            13,
+            15,
+            20
+          ]
+        ],
+        "ySeriaries": [
+          "Lenovo"
+        ],
+        "yUnit": "thousands"
+      }
+    },
+    "myFavorits": {
+      "salesReports": {
+        "profitability": {
+          "id": 1,
+          "xName": "Year",
+          "xValue": [
+            2008,
+            2009,
+            2010,
+            2011,
+            2012
+          ],
+          "xUnit": "year",
+          "yName": "Profit",
+          "yValue": [
+            [
+              10,
+              12,
+              13,
+              15,
+              20
+            ]
+          ],
+          "ySeriaries": [
+            "Lenovo"
+          ],
+          "yUnit": "million USD"
+        },
+        "salesVolume": {
+          "id": 2,
+          "xName": "Year",
+          "xValue": [
+            2008,
+            2009,
+            2010,
+            2011,
+            2012
+          ],
+          "xUnit": "year",
+          "yName": "Volume",
+          "yValue": [
+            [
+              10,
+              12,
+              13,
+              15,
+              20
+            ]
+          ],
+          "ySeriaries": [
+            "Lenovo"
+          ],
+          "yUnit": "thousands pieces"
+        }
+      },
+      "creditReports": {
+        "DSO": {
+          "id": 3,
+          "xName": "Year",
+          "xValue": [
+            2008,
+            2009,
+            2010,
+            2011,
+            2012
+          ],
+          "xUnit": "year",
+          "yName": "Days",
+          "yValue": [
+            [
+              10,
+              12,
+              13,
+              15,
+              20
+            ]
+          ],
+          "ySeriaries": [
+            "Lenovo"
+          ],
+          "yUnit": "day"
+        },
+        "openItem": {
+          "id": 4,
+          "xName": "Year",
+          "xValue": [
+            2008,
+            2009,
+            2010,
+            2011,
+            2012
+          ],
+          "xUnit": "year",
+          "yName": "Open Item",
+          "yValue": [
+            [
+              10,
+              12,
+              13,
+              15,
+              20
+            ]
+          ],
+          "ySeriaries": [
+            "Lenovo"
+          ],
+          "yUnit": "thousands"
+        }
+      }
+    }
+  }
+}
+
+4. Delete my favorite report
+relative URL: /report/myfavorite/${reportName}
+http method: DELETE
+json response sample:
+{
+  "status": "sucess",
+  "message": "Successfully delete report!",
+  "data": {}
+}
+
+5. Add my favorite report
+relative URL: /report/myfavorite/${reportName}
+http method: POST
+http body:
+  {
+   "my DSO": {
+        "id": 3,
+        "xName": "Year",
+        "xValue": [
+          2008,
+          2009,
+          2010,
+          2011,
+          2012
+        ],
+        "xUnit": "year",
+        "yName": "Days",
+        "yValue": [
+          [
+            10,
+            12,
+            13,
+            15,
+            20
+          ]
+        ],
+        "ySeriaries": [
+          "Lenovo"
+        ],
+        "yUnit": "day"
+     	}
+   }
+
+json response sample:
+{
+  "status": "sucess",
+  "message": "Successfully add report!",
+  "data": {}
+}
+
+================================================================================
+
+Chart-One Chart:
+1. Load lookup values for timeline and categories; 
+input: report id;
+output: lookup values for timeline, categories.
+relative URL: /report/lookup/{report id}
+http method: GET
+json response sample:
+{
+	"categories" :
+	[
+		"Country" : ["All", "China", "USA"],
+		"Region" : ["All", "South", "North"],
+		"Industry" : ["All", "Large Enterprise", "Small"],
+		"Customer Group" : ["All"]
+	]
+	"timeline":
+	{
+		"minDate" : 2000-01-01,
+		"maxDate" : 2012-12-31
+	}
+}
+
+2. Filter Chart by timeline/categories:
+input: report id, category filters, start date, end date;
+output: report with specified id.
+relative URL: /report
+http method: POST
+http body: reportId=4 country=China;USA region=All industry=Small customerGroup=All
+startDate=2000-01-01
+endDate=2012-12-31
+json response sample:
+{
+	"openItem":{
+			"id" : "4",
+			"xName" : "Year",
+			"xValue" : [ 2008, 2009, 2010, 2011, 2012 ],
+			"xUnit" : "year",
+			"yName" : "Open Item",
+			"yValue" : {
+				"series1" : [ 10, 12, 13, 15, 20 ]
+			}
+			"yUnit" : "thousands"
+		}
+}
+
+=================================================================
+
+Work Items:
+1. Get list of items belong to current user;
+Sales order:
+input: user id, start page number, type, default = 10
+output: a list of blocked order (paged 10 items at a time)
+relative URL : /workItems/blockedOrder/{startPageNumber}/{pageSize}
+http method : GET
+json response sample	
+	{
+		"status": "success",
+  		"message": "get json object",
+        "data": {
+       		 "salesOrders" :
+			[
+				{"001":{"amount":1000, "date":"2012-01-11", "blocked":true, "processed":false}},
+				{"002":{"amount":1000, "date":"2011-01-11", "blocked":true, "processed":false}},
+				{"003":{"amount":1000, "date":"2010-01-11", "blocked":false, "processed":true}}
+			]
+        }
+	}
+
+Credit Request: 
+input: user id, start page number, type, default = 10
+output: a list of credit request (paged 10 items at a time)
+relative URL : /workItems/creditCase/{startPageNumber}/{pageSize}
+http method : GET
+json response sample	
+	{
+		"status": "success",
+  		"message": "get json object",
+        "data": {
+			"creditRequest" :
+			[
+				{"001":{"customer":"Silverstar wholesales Inc.", "status":"New", "priority":"Urgent", 
+				"createdDate":"2012-01-11", "processed":false}},
+				{"002":{"customer":"SAP", "status":"New", "priority":"Urgent", 
+				"createdDate":"2012-01-11", "processed":false}},
+				{"002":{"customer":"IBM", "status":"New", "priority":"Urgent", 
+				"createdDate":"2012-01-11", "processed":false}}
+			]
+		}
+	}
+
+Early warning:
+input: user id, start page number, type, default = 10
+output: a list of credit request (paged 10 items at a time)
+relative URL : /workItems/warning/{startPageNumber}/{pageSize}
+http method : GET
+json response sample	
+	{
+		"status": "success",
+  		"message": "get json object",
+        "data": {
+			"earlyWarning" :
+			[
+				{"001":{"customer":"Silverstar wholesales Inc.", "priority":"Urgent", 
+				"warningType":"Financial Ratio Changed", "read":false}},
+				{"001":{"customer":"SAP", "priority":"Urgent", 
+				"warningType":"Financial Ratio Changed", "read":false}},
+				{"001":{"customer":"IBM", "priority":"Urgent", 
+				"warningType":"Financial Ratio Changed", "read":false}}
+			]
+		}
+	}
+
+2. Get item detail.
+Sales order:
+relative URL : /workItems/blockedOrder/{itemId}
+http method : GET
+json response sample:
+	{
+		"status": "success",
+  		"message": "get json object",
+        "data": {
+			"id" : "001",
+			"customerName": "IBM",
+			"amount" : "100",
+			"creationDate" : "2012-10-10",
+			"sales" : "Tom"
+			"orderItems" : 
+			[
+				{"name":"Samsung Chromebook", "price":"142", "id":"F-003", "amount":"1420"},
+				{"name":"Vetch Brilliant Creations Advanced Notebook", "price":"142", "id":"F-001", "amount":"1420"},
+			]
+		}
+	}
+	
+Credit Request: 
+relative URL : /workItems/creditCase/{itemId}
+http method : GET
+json response sample:
+	{
+		"status": "success",
+  		"message": "get json object",
+        "data": {
+			"id" : "001",
+			"customerName" : "Silverstar Wholesale Products, Inc.",
+			"generalInformation" : {"description":"Please approve this credit request by tomorrow.","priority":"High", "status":"New", "reason":"New Order Reaches Credit Limit"},
+			"amount" : {"requestAmount":1000, "approved":800, "expectedVolumn":2000, "creditLimit":1200},
+			"administrative" : {"createOnBy":"2013-1-3", "changedOnBy":"2013-1-3", "closeOnBy":"2013-1-3"},
+			"note" : "note", 
+			"attachmentId" : "1"
+		}
+	}
+	
+Early warning: 
+relative URL: /workItems/warning/{itemId}
+http method: GET
+json response sample:
+	{
+		"status": "success",
+  		"message": "get json object",
+        "data": {
+			"id" : "001",
+			"customerName" : "Silverstar Wholesale Products, Inc.",
+			"generalInformation" : 
+			{
+				//default probability and impact matrix
+				//assume 0 is green, 1 is orange, 2 is red
+				"matrix":
+				{
+					"x":["Insignificant", "Minor", "Moderate", "Major", "Catastrophic"],
+					"y":["Near Certain", "Highly Likely", "Likely", "Unlikely", "Remote"],
+					"value":[
+					[0,0,1,1,1],
+					[0,0,1,2,2],
+					[1,1,1,2,2],
+					[1,2,2,2,2],
+					[1,2,2,2,2]],
+					"location":[1,2]
+				}
+				"priority" : "High"
+			},
+			"reason":"This customer has risk about its financial data"
+		}
+	}
+
+3. update item detail.
+Credit Request: 
+relative URL : /workItems/{type}/{itemId}
+http method : POST
+http body:
+{
+			"id" : "001",
+			"customerName" : "Silverstar Wholesale Products, Inc.",
+			"generalInformation" : {"description":"Please approve this credit request by tomorrow.","priority":"High", "status":"New", "reason":"New Order Reaches Credit Limit"},
+			"amount" : {"requestAmount":1000, "approved":800, "expectedVolumn":2000, "creditLimit":1200},
+			"administrative" : {"createOnBy":"2013-1-3", "changedOnBy":"2013-1-3", "closeOnBy":"2013-1-3"},
+			"note" : "note", 
+			"attachmentId" : "1"
+}
+json response sample:
+{
+		"status": "success",
+  		"message": "update a credit request",
+        "data": {}
+}
+
+==========================================================
+
+Customer Overview Page:
+0. Get customer detail
+relative URL: /customer/{id}/detail  
+http method: GET
+json response sample:
+
+the same with web API: /customer/{id}/detail 
+{
+    "message": "success",
+    "status": "success",
+    "data": {
+        "id": "1",
+        "customerNumber": "0000403633",
+        "customerName": "Kevin Strauss",
+        "businessType": "value",
+        "industrySector": "Mine",
+        "establishmentYear": "1999",
+        "employeeSize": "2000",
+        "registerdCapital": "20,000,000",
+        "contactTitle": "Director",
+        "contactname": "Einmalkunde",
+        "telephone": "5678-0980",
+        "email": "Einmalkunde@gmial.com",
+        "website": "www.gmine.com",
+        "address": "Auto Center Dr, Antioch,USA"
+    }
+}
+	
+1. Get customer score and rating
+relative URL: /customer/{id}/overview 
+
+the same with web API: /customer/{id}/overview  
+{
+    "message": "success",
+    "status": "success",
+    "data": {
+        "scoreRating": {
+            "updatedTime": "2012-11-13",
+            "score": 720,
+            "rating": "A",
+            "levels": [
+                "A+",
+                "A",
+                "B+",
+                "B",
+                "B-",
+                "C+",
+                "C"
+            ]
+        },
+        "externalRating": {
+            "updatedTime": "2012-11-11",
+            "ratings": [
+                {
+                    "name": "D&B",
+                    "grade": "AAA",
+                    "levels": [
+                        "AAA",
+                        "A",
+                        "B+",
+                        "B",
+                        "B-",
+                        "C+",
+                        "C"
+                    ]
+                },
+                {
+                    "name": "Experian",
+                    "grade": "AAA",
+                    "levels": [
+                        "AAA",
+                        "A",
+                        "B+",
+                        "B",
+                        "B-",
+                        "C+",
+                        "C"
+                    ]
+                },
+                {
+                    "name": "Equifax",
+                    "grade": "AAA",
+                    "levels": [
+                        "AAA",
+                        "A",
+                        "B+",
+                        "B",
+                        "B-",
+                        "C+",
+                        "C"
+                    ]
+                },
+                {
+                    "name": "EDGAR",
+                    "grade": "AAA",
+                    "levels": [
+                        "AAA",
+                        "A",
+                        "B+",
+                        "B",
+                        "B-",
+                        "C+",
+                        "C"
+                    ]
+                }
+            ]
+        },
+        "finacialRatio": {
+            "times": [
+                "2001",
+                "2002",
+                "2003",
+                "2004",
+                "2005",
+                "2006",
+                "2007",
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012"
+            ],
+            "liquidity": [
+                "1.12",
+                "2.61",
+                "9.37",
+                "1.37",
+                "8.08",
+                "0.94",
+                "8.17",
+                "1.72",
+                "8.77",
+                "8.30",
+                "1.40",
+                "2.60"
+            ],
+            "groth": [
+                "6.29",
+                "9.76",
+                "3.24",
+                "0.75",
+                "3.60",
+                "7.71",
+                "1.89",
+                "0.12",
+                "5.17",
+                "1.23",
+                "0.36",
+                "6.44"
+            ],
+            "prof0.81itablity": [
+                "1.82",
+                "9.50",
+                "7.12",
+                "1.53",
+                "6.57",
+                "9.81",
+                "9.63",
+                "0.38",
+                "7.84",
+                "0.43",
+                "0.86",
+                "7.85"
+            ],
+            "solvency": [
+                "0.99",
+                "7.06",
+                "5.21",
+                "5.89",
+                "9.33",
+                "2.06",
+                "8.84",
+                "6.39",
+                "2.56",
+                "6.56",
+                "5.03",
+                "8.96"
+            ],
+            "activity": [
+                "6.54",
+                "2.42",
+                "5.09",
+                "1.89",
+                "4.78",
+                "1.72",
+                "5.27",
+                "2.74",
+                "7.88",
+                "0.08",
+                "3.21",
+                "5.47"
+            ]
+        },
+        "creditEvents": {
+            "updateTime": "2012-12-01",
+            "latestExternalReports": 3,
+            "legalEvents": 4,
+            "mediaRecords": 2
+        }
+    }
+}
+
+5. Get customer names
+relative URL: /customers/{category}/{subcategory}
+http method: GET
+json response sample:
+	[
+		"IBM", "Silver", "SAP"
+	]
+
+===============================================================
+Behavior Reports:
+1. DSO&DBT: Days Sales Outstanding & Days Beyond Term
+relative URL: /reports/dsodbt/{customer_id}
+GET
+sample:
+		{
+			"id" : "3",
+			"xName" : "Year",
+			"xValue" : [ 2008, 2009, 2010, 2011, 2012 ],
+			"xUnit" : "year",
+			"yName" : "Days",
+			"yValue" : {
+				"DBT" : [ 10, 12, 13, 15, 20 ],
+				"DSO" : [ 10, 12, 13, 15, 20 ]
+			}
+			"yUnit" : "day"
+		}
+2. Aging of Receivables
+relative URL: /reports/ar/{customer_id}
+GET
+sample:
+		{
+			"id" : "4",
+			"xName" : "Days",
+			"xValue" : [ "0-30", "31-60", "61-90", ">90" ],
+			"xUnit" : "day",
+			"yName" : "Amount",
+			"yValue" : {
+				"series1" : [ 10000, 12000, 13000, 15000, 20000 ]
+			}
+			"yUnit" : "USD"
+		}
+
+3. Dunning & Collection
+relative URL: /reports/dc/{customer_id}
+GET 
+sample:
+		{
+			"id" : "5",
+			"xName" : "Quarters",
+			"xValue" : [ "Q1/2012", "Q2/2012", "Q3/2012", "Q4/2012" ],
+			"xUnit" : "quarter",
+			"yName" : "Level",
+			"yValue" : {
+				"series1" : [ 0, 1, 2, 3, 4 ]
+			}
+			"yUnit" : ""
+		}
+
+4. Profitability
+relative URL: /reports/prf/{customer_id}
+GET
+sample:
+		{
+			"id" : "4",
+			"xName" : "Quarters",
+			"xValue" : [ "Q1/2012", "Q2/2012", "Q3/2012", "Q4/2012" ],
+			"xUnit" : "quarter",
+			"yName" : "Amount",
+			"yValue" : [ [ 10000, 12000, 13000, 15000, 20000 ],
+			             [ 8000, 4000, 10000, 5000, 10000 ],
+			             [ 2000, 8000, 3000, 10000, 10000 ]],
+			"ySeriaries":["Total", "Silver", "IBM"],
+			"yUnit" : "USD"
+		}

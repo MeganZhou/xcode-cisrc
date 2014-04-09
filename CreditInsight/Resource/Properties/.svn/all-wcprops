@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/ci/!svn/ver/407/trunk/dev/src/xcode/CreditInsight/Resource/Properties
+END
+AppConfig.plist
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ci/!svn/ver/385/trunk/dev/src/xcode/CreditInsight/Resource/Properties/AppConfig.plist
+END
+RestAPI.plist
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ci/!svn/ver/410/trunk/dev/src/xcode/CreditInsight/Resource/Properties/RestAPI.plist
+END
+Setting.plist
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ci/!svn/ver/61/trunk/dev/src/xcode/CreditInsight/Resource/Properties/Setting.plist
+END
+WorkItemDetail.plist
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ci/!svn/ver/359/trunk/dev/src/xcode/CreditInsight/Resource/Properties/WorkItemDetail.plist
+END

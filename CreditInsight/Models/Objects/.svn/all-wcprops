@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ci/!svn/ver/407/trunk/dev/src/xcode/CreditInsight/Models/Objects
+END
+BaseBehavior.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/ci/!svn/ver/376/trunk/dev/src/xcode/CreditInsight/Models/Objects/BaseBehavior.h
+END
+Series.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/ci/!svn/ver/305/trunk/dev/src/xcode/CreditInsight/Models/Objects/Series.h
+END
+Notification.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/ci/!svn/ver/389/trunk/dev/src/xcode/CreditInsight/Models/Objects/Notification.m
+END
+ExternalRating.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/ci/!svn/ver/389/trunk/dev/src/xcode/CreditInsight/Models/Objects/ExternalRating.m
+END
+BaseBehavior.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/ci/!svn/ver/389/trunk/dev/src/xcode/CreditInsight/Models/Objects/BaseBehavior.m
+END
+CreditEvents.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/ci/!svn/ver/376/trunk/dev/src/xcode/CreditInsight/Models/Objects/CreditEvents.h
+END
+Series.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/ci/!svn/ver/305/trunk/dev/src/xcode/CreditInsight/Models/Objects/Series.m
+END
+BaseObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/ci/!svn/ver/376/trunk/dev/src/xcode/CreditInsight/Models/Objects/BaseObject.h
+END
+EarlyWarning.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/ci/!svn/ver/376/trunk/dev/src/xcode/CreditInsight/Models/Objects/EarlyWarning.h
+END
+CreditEvents.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/ci/!svn/ver/389/trunk/dev/src/xcode/CreditInsight/Models/Objects/CreditEvents.m
+END
+BaseObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/ci/!svn/ver/376/trunk/dev/src/xcode/CreditInsight/Models/Objects/BaseObject.m
+END
+EarlyWarning.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/ci/!svn/ver/389/trunk/dev/src/xcode/CreditInsight/Models/Objects/EarlyWarning.m
+END
+Filters.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/ci/!svn/ver/376/trunk/dev/src/xcode/CreditInsight/Models/Objects/Filters.h
+END
+Report.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/ci/!svn/ver/376/trunk/dev/src/xcode/CreditInsight/Models/Objects/Report.h
+END
+Category.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/ci/!svn/ver/305/trunk/dev/src/xcode/CreditInsight/Models/Objects/Category.h
+END
+Filters.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/ci/!svn/ver/410/trunk/dev/src/xcode/CreditInsight/Models/Objects/Filters.m
+END
+AgingOfReceivables.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ci/!svn/ver/186/trunk/dev/src/xcode/CreditInsight/Models/Objects/AgingOfReceivables.h
+END
+Report.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/ci/!svn/ver/410/trunk/dev/src/xcode/CreditInsight/Models/Objects/Report.m
+END
+ScoreRating.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/ci/!svn/ver/376/trunk/dev/src/xcode/CreditInsight/Models/Objects/ScoreRating.h
+END
+Category.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/ci/!svn/ver/305/trunk/dev/src/xcode/CreditInsight/Models/Objects/Category.m
+END
+AgingOfReceivables.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ci/!svn/ver/301/trunk/dev/src/xcode/CreditInsight/Models/Objects/AgingOfReceivables.m
+END
+ScoreRating.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/ci/!svn/ver/389/trunk/dev/src/xcode/CreditInsight/Models/Objects/ScoreRating.m
+END
+Customer.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/ci/!svn/ver/376/trunk/dev/src/xcode/CreditInsight/Models/Objects/Customer.h
+END
+SalesOrder.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/ci/!svn/ver/376/trunk/dev/src/xcode/CreditInsight/Models/Objects/SalesOrder.h
+END
+Customer.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/ci/!svn/ver/389/trunk/dev/src/xcode/CreditInsight/Models/Objects/Customer.m
+END
+SalesOrder.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/ci/!svn/ver/389/trunk/dev/src/xcode/CreditInsight/Models/Objects/SalesOrder.m
+END
+DunningCollection.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/ci/!svn/ver/186/trunk/dev/src/xcode/CreditInsight/Models/Objects/DunningCollection.h
+END
+DSODBT.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/ci/!svn/ver/186/trunk/dev/src/xcode/CreditInsight/Models/Objects/DSODBT.h
+END
+Profitability.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/ci/!svn/ver/186/trunk/dev/src/xcode/CreditInsight/Models/Objects/Profitability.h
+END
+DunningCollection.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/ci/!svn/ver/301/trunk/dev/src/xcode/CreditInsight/Models/Objects/DunningCollection.m
+END
+CreditRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/ci/!svn/ver/376/trunk/dev/src/xcode/CreditInsight/Models/Objects/CreditRequest.h
+END
+FinancialRatio.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/ci/!svn/ver/376/trunk/dev/src/xcode/CreditInsight/Models/Objects/FinancialRatio.h
+END
+DSODBT.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/ci/!svn/ver/301/trunk/dev/src/xcode/CreditInsight/Models/Objects/DSODBT.m
+END
+Profitability.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/ci/!svn/ver/301/trunk/dev/src/xcode/CreditInsight/Models/Objects/Profitability.m
+END
+Notification.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/ci/!svn/ver/376/trunk/dev/src/xcode/CreditInsight/Models/Objects/Notification.h
+END
+ExternalRating.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/ci/!svn/ver/376/trunk/dev/src/xcode/CreditInsight/Models/Objects/ExternalRating.h
+END
+FinancialRatio.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/ci/!svn/ver/389/trunk/dev/src/xcode/CreditInsight/Models/Objects/FinancialRatio.m
+END
+CreditRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/ci/!svn/ver/389/trunk/dev/src/xcode/CreditInsight/Models/Objects/CreditRequest.m
+END

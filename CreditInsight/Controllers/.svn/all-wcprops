@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ci/!svn/ver/408/trunk/dev/src/xcode/CreditInsight/Controllers
+END
+CustomerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/ci/!svn/ver/405/trunk/dev/src/xcode/CreditInsight/Controllers/CustomerViewController.xib
+END
+HomeViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ci/!svn/ver/410/trunk/dev/src/xcode/CreditInsight/Controllers/HomeViewController.m
+END
+CustomerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/ci/!svn/ver/325/trunk/dev/src/xcode/CreditInsight/Controllers/CustomerViewController.h
+END
+LoginViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ci/!svn/ver/384/trunk/dev/src/xcode/CreditInsight/Controllers/LoginViewController.xib
+END
+CustomerCompareViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ci/!svn/ver/396/trunk/dev/src/xcode/CreditInsight/Controllers/CustomerCompareViewController.xib
+END
+CustomerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/ci/!svn/ver/406/trunk/dev/src/xcode/CreditInsight/Controllers/CustomerViewController.m
+END
+LoginViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ci/!svn/ver/328/trunk/dev/src/xcode/CreditInsight/Controllers/LoginViewController.h
+END
+CustomerCompareViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ci/!svn/ver/399/trunk/dev/src/xcode/CreditInsight/Controllers/CustomerCompareViewController.h
+END
+BaseViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ci/!svn/ver/319/trunk/dev/src/xcode/CreditInsight/Controllers/BaseViewController.h
+END
+ReportsViewerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ci/!svn/ver/407/trunk/dev/src/xcode/CreditInsight/Controllers/ReportsViewerViewController.xib
+END
+LoginViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ci/!svn/ver/385/trunk/dev/src/xcode/CreditInsight/Controllers/LoginViewController.m
+END
+CustomerCompareViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ci/!svn/ver/399/trunk/dev/src/xcode/CreditInsight/Controllers/CustomerCompareViewController.m
+END
+BaseViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ci/!svn/ver/390/trunk/dev/src/xcode/CreditInsight/Controllers/BaseViewController.m
+END
+WorkItemsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/ci/!svn/ver/372/trunk/dev/src/xcode/CreditInsight/Controllers/WorkItemsViewController.xib
+END
+ReportsViewerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ci/!svn/ver/407/trunk/dev/src/xcode/CreditInsight/Controllers/ReportsViewerViewController.h
+END
+HomeViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ci/!svn/ver/47/trunk/dev/src/xcode/CreditInsight/Controllers/HomeViewController.xib
+END
+ChartViewController2.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ci/!svn/ver/3/trunk/dev/src/xcode/CreditInsight/Controllers/ChartViewController2.h
+END
+WorkItemsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/ci/!svn/ver/368/trunk/dev/src/xcode/CreditInsight/Controllers/WorkItemsViewController.h
+END
+ReportsViewerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ci/!svn/ver/410/trunk/dev/src/xcode/CreditInsight/Controllers/ReportsViewerViewController.m
+END
+HomeViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ci/!svn/ver/354/trunk/dev/src/xcode/CreditInsight/Controllers/HomeViewController.h
+END
+ChartViewController2.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ci/!svn/ver/3/trunk/dev/src/xcode/CreditInsight/Controllers/ChartViewController2.m
+END
+WorkItemsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/ci/!svn/ver/388/trunk/dev/src/xcode/CreditInsight/Controllers/WorkItemsViewController.m
+END

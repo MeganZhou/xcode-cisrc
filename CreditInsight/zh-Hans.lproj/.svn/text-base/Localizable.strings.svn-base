@@ -1,0 +1,146 @@
+/* 
+  Localization.strings
+  CreditInsight
+
+  Created by wang liang on 1/31/13.
+  Copyright (c) 2013 wang liang. All rights reserved.
+  Sample key's format is "filename.control.field"
+*/
+
+
+"ReportsViewerViewController.Bar.Title"="报表阅览器";
+"SAPCreditInsight" = "SAP信用分析";
+"Username" = "登录帐户";
+"Passcode" = "登录密码";
+"Login" = "登录";
+"TrySampleData" = "尝试样本数据";
+"Error" = "出错";
+"Warning" = "警告";
+"OK" = "确定";
+"Loading" = "请稍候...";
+
+//------------------------Error&Warning-------------------------
+"LoginController.Error.Message" = "用户名或密码错误，请重试";
+"NotConnectToServerMsg" = "连接服务器失败。";
+"OtherNetworkError" = "可能由于其他问题导致连接服务器失败。";
+"TimedOutMsg" = "连接超时，请检查你的网络连接。";
+"DefaultErrorMsg" = "出错了，请尝试再次或者联系管理员。";
+"NotFindAddress" = "可能由于网络原因在地图上没有查询到客户地址.";
+"SessionExpireMsg" = "由于你长时间未使用发送请求失败，请重新登录.";
+
+//-------------------------CustomerController-------------------
+"HomeViewController.Bar.Title"="信用和销售仪表盘";
+"CustomerSearch" = "客户查询";
+"Setting" = "设置";
+"Currency" = "货币";
+"USD" = "美元";
+"RMB" = "人民币";
+"EUR" = "欧元";
+
+//-------------------------CustomerController--------------------
+"Home" = "主页";
+"GeneralInformation" = "基本信息";
+"CustomerNumber" = "客户编号：";
+"Name" = "客户名称：";
+"BusinessType" = "业务类型：";
+"IndustrySector" = "行业类别：";
+"YearOfEstablishment" = "创建日期：";
+"EmployeeSize" = "员工数：";
+"RegisteredCapital" = "注册资金：";
+"Ownership" = "所有权  ";
+"ContactTitle" = "联系人职务：";
+"ContactName" = "联系人姓名：";
+"Telephone" = "电话：";
+"Email" = "电子邮件：";
+"Website" = "公司网址：";
+"Updated" = "更新";
+"ScoreRating" = "信用评分和评级";
+"Score" = "信用评分：";
+"Rating" = "信用评级：";
+"ExternalRating" = "外部第三方机构评级";
+"KeyFinancialRatios" = "财务指标";
+"CreditEvents" = "信用事件";
+"LatestExternalReports" = "最新外部报告";
+"LegalEvents" = "负面信贷事件";
+"MediaRecords" = "公开文件";
+"Overview" = "概览";
+"Behavior" = "客户行为";
+"CreditEvents" = "信用事件";
+"Compare" = "比较";
+"Done" = "确定";
+"Cancel" = "取消";
+"AddCustomerToCompare" = "添加客户对比";
+"Sort" = "分类";
+"Sort By" = "分类";
+"Date" = "按日期";
+"Type" = "按类型";
+//-------------------------WorkItemController-------------------
+"BlockedOrders" = "冻结订单";
+"CreditRequests" = "信用申请";
+"EarlyWarning" = "早期预警";
+"SalesOrderNO" = "销售订单号";
+"Amount" = "金额";
+"CreatedDate" = "冻结日期";
+"SalesOrder" = "订单号";
+"Customer" = "客户名称";
+"SalesOrderAmount" = "订单金额";
+"CreateDate" = "创建日期";
+"Sales" = "销售";
+"OrderDetail" = "订单详情";
+"Total" = "总额";
+"RequestDate" = "请求日期";
+"RequestID" = "请求编号";
+"Description" = "描述";
+"Priority" = "优先级";
+"Status" = "状态";
+"Reason" = "原因";
+"RequestAmount" = "请求金额";
+"Approved" = "批准金额";
+"ExpectedVolumn" = "期望金额";
+"CreditLimit" = "信用限制";
+"AdministrativeData" = "管理数据";
+"CreateOnBy" = "Create On/By";
+"ChangedOnBy" = "Changed On/By";
+"CloseOnBy" = "Close On/By";
+"Note" = "备注";
+"Attachment" = "附件";
+"Release" = "解锁";
+"Approve" = "同意";
+"Reject" = "拒绝";
+"Save" = "保存";
+"Ignore" = "忽略";
+"Forward" = "转发";
+"BlockMasterData" = "冻结主数据";
+// EarlyWarning
+"WarningType" = "预警类型";
+"WarningID" = "预警编号";
+"Profitability" = "概率";
+"Impact" = "影响";
+"Remote" = "极小的";
+"Unlikely" = "不可能的";
+"Likely" = "可能的";
+"HighLikely" = "极可能的";
+"NearCertain" = "确定的";
+"Insignificant" = "无关的";
+"Minor" = "极小的";
+"Moderate" = "中等的";
+"Major" = "主要的";
+"Catastrophic" = "灾难性的";
+//-------------------------Home Reports-------------------
+"Credit Reports" = "信用仪表盘";
+"Days Sales Outstanding" = "应收帐款周期";
+"Credit Limit Utilization" = "信用额度使用";
+"Bad Debt" = "坏帐";
+"Aging of Accounts Receivable" = "应收帐款账龄";
+"Sales Reports" = "销售仪表盘";
+"Profitability" = "获利能力";
+"Sales Volume" = "销售业绩";
+"My Favorites" = "我的最爱";
+"My Sales Reports" = "我的销售仪表盘";
+"My Credit Reports" = "我的信用仪表盘";
+
+// filter category
+"Credit Control Area" = "信用控制区域";
+"Company Code" = "公司代码";
+"Customer" = "客户";
+"Timeline" = "时间范围";

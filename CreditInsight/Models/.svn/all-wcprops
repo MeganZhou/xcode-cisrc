@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/ci/!svn/ver/407/trunk/dev/src/xcode/CreditInsight/Models
+END
+GlobalClass.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/ci/!svn/ver/379/trunk/dev/src/xcode/CreditInsight/Models/GlobalClass.m
+END
+ExternalRating.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/ci/!svn/ver/97/trunk/dev/src/xcode/CreditInsight/Models/ExternalRating.m
+END
+GlobalClass.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/ci/!svn/ver/313/trunk/dev/src/xcode/CreditInsight/Models/GlobalClass.h
+END
+ExternalRating.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/ci/!svn/ver/97/trunk/dev/src/xcode/CreditInsight/Models/ExternalRating.h
+END
+SynthesizeSingleton.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/ci/!svn/ver/25/trunk/dev/src/xcode/CreditInsight/Models/SynthesizeSingleton.h
+END

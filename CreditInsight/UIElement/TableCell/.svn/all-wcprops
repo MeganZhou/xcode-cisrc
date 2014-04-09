@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/ci/!svn/ver/335/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell
+END
+BlockOrderTableCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ci/!svn/ver/335/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/BlockOrderTableCell.xib
+END
+OrderInfoTableCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ci/!svn/ver/261/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/OrderInfoTableCell.xib
+END
+CustomerInfoTableCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ci/!svn/ver/79/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/CustomerInfoTableCell.m
+END
+WorkListTableCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/ci/!svn/ver/291/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/WorkListTableCell.m
+END
+AddChartsTableViewCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ci/!svn/ver/169/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/AddChartsTableViewCell.xib
+END
+ReportsViewerHeaderTableCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ci/!svn/ver/137/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/ReportsViewerHeaderTableCell.xib
+END
+BlockOrderTableCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ci/!svn/ver/326/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/BlockOrderTableCell.h
+END
+OrderInfoTableCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ci/!svn/ver/242/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/OrderInfoTableCell.h
+END
+AddChartsTableViewCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ci/!svn/ver/235/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/AddChartsTableViewCell.h
+END
+ReportsViewerHeaderTableCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ci/!svn/ver/65/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/ReportsViewerHeaderTableCell.h
+END
+OrderDetailTableCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ci/!svn/ver/105/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/OrderDetailTableCell.xib
+END
+BlockOrderTableCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ci/!svn/ver/33/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/BlockOrderTableCell.m
+END
+OrderInfoTableCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ci/!svn/ver/108/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/OrderInfoTableCell.m
+END
+AddChartsTableViewCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ci/!svn/ver/69/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/AddChartsTableViewCell.m
+END
+ReportsViewerHeaderTableCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ci/!svn/ver/133/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/ReportsViewerHeaderTableCell.m
+END
+OrderDetailTableCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ci/!svn/ver/102/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/OrderDetailTableCell.h
+END
+OrderDetailTableCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ci/!svn/ver/102/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/OrderDetailTableCell.m
+END
+EarlyWarningInformationTableCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/ci/!svn/ver/329/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/EarlyWarningInformationTableCell.xib
+END
+EarlyWarningInformationTableCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/ci/!svn/ver/329/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/EarlyWarningInformationTableCell.h
+END
+CustomerInfoTableCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ci/!svn/ver/88/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/CustomerInfoTableCell.xib
+END
+WorkListTableCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ci/!svn/ver/326/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/WorkListTableCell.xib
+END
+EarlyWarningInformationTableCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/ci/!svn/ver/329/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/EarlyWarningInformationTableCell.m
+END
+CustomerInfoTableCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ci/!svn/ver/88/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/CustomerInfoTableCell.h
+END
+WorkListTableCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/ci/!svn/ver/291/trunk/dev/src/xcode/CreditInsight/UIElement/TableCell/WorkListTableCell.h
+END

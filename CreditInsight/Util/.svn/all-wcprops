@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/ci/!svn/ver/404/trunk/dev/src/xcode/CreditInsight/Util
+END
+NSMutableArray+Stack.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/ci/!svn/ver/323/trunk/dev/src/xcode/CreditInsight/Util/NSMutableArray+Stack.h
+END
+NSString+Formatter.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/ci/!svn/ver/207/trunk/dev/src/xcode/CreditInsight/Util/NSString+Formatter.m
+END
+UILabel+AutoSize.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/ci/!svn/ver/364/trunk/dev/src/xcode/CreditInsight/Util/UILabel+AutoSize.h
+END
+NSString+Validation.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/ci/!svn/ver/355/trunk/dev/src/xcode/CreditInsight/Util/NSString+Validation.h
+END
+NSMutableArray+Stack.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/ci/!svn/ver/323/trunk/dev/src/xcode/CreditInsight/Util/NSMutableArray+Stack.m
+END
+NSMutableArray+Extension.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/ci/!svn/ver/404/trunk/dev/src/xcode/CreditInsight/Util/NSMutableArray+Extension.h
+END
+UILabel+AutoSize.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/ci/!svn/ver/364/trunk/dev/src/xcode/CreditInsight/Util/UILabel+AutoSize.m
+END
+NSString+Validation.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/ci/!svn/ver/355/trunk/dev/src/xcode/CreditInsight/Util/NSString+Validation.m
+END
+CallAlert.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/ci/!svn/ver/392/trunk/dev/src/xcode/CreditInsight/Util/CallAlert.h
+END
+NSMutableArray+Extension.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/ci/!svn/ver/404/trunk/dev/src/xcode/CreditInsight/Util/NSMutableArray+Extension.m
+END
+NSString+Formatter.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/ci/!svn/ver/190/trunk/dev/src/xcode/CreditInsight/Util/NSString+Formatter.h
+END
+CallAlert.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/ci/!svn/ver/385/trunk/dev/src/xcode/CreditInsight/Util/CallAlert.m
+END
